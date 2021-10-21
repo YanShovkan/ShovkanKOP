@@ -1,0 +1,15 @@
+C:\Users\shovk\source\repos\COP-main\Lab2Appanov\Lab2Appanov\obj\Debug\Lab2Appanov.csproj.ResolveComReference.cache
+C:\Users\shovk\source\repos\COP-main\Lab2Appanov\Lab2Appanov\obj\Debug\Lab2Appanov.Form1.resources
+C:\Users\shovk\source\repos\COP-main\Lab2Appanov\Lab2Appanov\obj\Debug\Lab2Appanov.Properties.Resources.resources
+C:\Users\shovk\source\repos\COP-main\Lab2Appanov\Lab2Appanov\obj\Debug\Lab2Appanov.csproj.GenerateResource.cache
+C:\Users\shovk\source\repos\COP-main\Lab2Appanov\Lab2Appanov\obj\Debug\Lab2Appanov.csproj.CoreCompileInputs.cache
+C:\Users\shovk\source\repos\COP-main\Lab2Appanov\Lab2Appanov\bin\Debug\Lab2Appanov.exe.config
+C:\Users\shovk\source\repos\COP-main\Lab2Appanov\Lab2Appanov\bin\Debug\Lab2Appanov.exe
+C:\Users\shovk\source\repos\COP-main\Lab2Appanov\Lab2Appanov\bin\Debug\Lab2Appanov.pdb
+C:\Users\shovk\source\repos\COP-main\Lab2Appanov\Lab2Appanov\obj\Debug\Lab2Appanov.exe
+C:\Users\shovk\source\repos\COP-main\Lab2Appanov\Lab2Appanov\obj\Debug\Lab2Appanov.pdb
+C:\Users\shovk\source\repos\COP-main\Lab2Appanov\Lab2Appanov\obj\Debug\Lab2Appanov.csproj.AssemblyReference.cache
+C:\Users\shovk\source\repos\COP-main\Lab2Appanov\Lab2Appanov\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\shovk\source\repos\COP-main\Lab2Appanov\Lab2Appanov\bin\Debug\itextsharp.dll
+C:\Users\shovk\source\repos\COP-main\Lab2Appanov\Lab2Appanov\bin\Debug\itextsharp.xml
+C:\Users\shovk\source\repos\COP-main\Lab2Appanov\Lab2Appanov\obj\Debug\Lab2Appanov.csproj.CopyComplete

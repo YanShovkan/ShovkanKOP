@@ -1,0 +1,10 @@
+C:\Users\shovk\source\repos\CoP-Laba1\Laboratory1\Library\bin\Debug\netstandard2.0\Laboratory2.deps.json
+C:\Users\shovk\source\repos\CoP-Laba1\Laboratory1\Library\bin\Debug\netstandard2.0\Laboratory2.dll
+C:\Users\shovk\source\repos\CoP-Laba1\Laboratory1\Library\bin\Debug\netstandard2.0\Laboratory2.pdb
+C:\Users\shovk\source\repos\CoP-Laba1\Laboratory1\Library\obj\Debug\netstandard2.0\Laboratory2.csproj.AssemblyReference.cache
+C:\Users\shovk\source\repos\CoP-Laba1\Laboratory1\Library\obj\Debug\netstandard2.0\Laboratory2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shovk\source\repos\CoP-Laba1\Laboratory1\Library\obj\Debug\netstandard2.0\Laboratory2.AssemblyInfoInputs.cache
+C:\Users\shovk\source\repos\CoP-Laba1\Laboratory1\Library\obj\Debug\netstandard2.0\Laboratory2.AssemblyInfo.cs
+C:\Users\shovk\source\repos\CoP-Laba1\Laboratory1\Library\obj\Debug\netstandard2.0\Laboratory2.csproj.CoreCompileInputs.cache
+C:\Users\shovk\source\repos\CoP-Laba1\Laboratory1\Library\obj\Debug\netstandard2.0\Laboratory2.dll
+C:\Users\shovk\source\repos\CoP-Laba1\Laboratory1\Library\obj\Debug\netstandard2.0\Laboratory2.pdb

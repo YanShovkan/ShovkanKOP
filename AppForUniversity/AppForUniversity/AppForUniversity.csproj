@@ -296,20 +296,19 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\CoP-Laba1\Laboratory1\Library\Laboratory2.csproj">
-      <Project>{3b34f8fa-3e32-49cb-a297-6ae7aca4dfa9}</Project>
-      <Name>Laboratory2</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\COP-main\Lab2Appanov\Lab2Appanov\Lab2Appanov.csproj">
+    <ProjectReference Include="..\..\Lab2Appanov\Lab2Appanov\Lab2Appanov.csproj">
       <Project>{153fb71e-1da3-4b10-9bc4-200161a84189}</Project>
       <Name>Lab2Appanov</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\ShovkanLibrary\NotVisualComponents\NotVisualComponents.csproj">
+    <ProjectReference Include="..\..\Library\Laboratory2.csproj">
+      <Project>{42ecfb5e-288f-45a3-a09b-5dcaf0fa8703}</Project>
+      <Name>Laboratory2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\NotVisualComponents\NotVisualComponents.csproj">
       <Project>{b1e54769-b99b-4a4f-9b71-50894c888983}</Project>
       <Name>NotVisualComponents</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Data.SqlClient.SNI.1.0.19235.1\build\net46\Microsoft.Data.SqlClient.SNI.targets" Condition="Exists('..\packages\Microsoft.Data.SqlClient.SNI.1.0.19235.1\build\net46\Microsoft.Data.SqlClient.SNI.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -8,10 +8,10 @@ namespace AppForUniversity.Logic.BusinessLogic
 {
     public class CourseLogic
     {
-        private readonly CourseStorage courseStorage;
-        public CourseLogic(CourseStorage courseStorage)
+        private readonly CourseStorage courseStorage = new CourseStorage();
+        public CourseLogic()
         {
-            this.courseStorage = courseStorage;
+
         }
 
         public List<CourseViewModel> Read(CourseBindingModel model)

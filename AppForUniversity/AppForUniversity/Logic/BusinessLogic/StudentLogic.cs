@@ -8,10 +8,10 @@ namespace AppForUniversity.Logic.BusinessLogic
 {
     public class StudentLogic
     {
-        private readonly StudentStorage studentStorage;
-        public StudentLogic(StudentStorage studentStorage)
+        private readonly StudentStorage studentStorage = new StudentStorage();
+        public StudentLogic()
         {
-            this.studentStorage = studentStorage;
+
         }
 
         public List<StudentViewModel> Read(StudentBindingModel model)

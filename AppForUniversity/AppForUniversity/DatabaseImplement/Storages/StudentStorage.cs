@@ -101,7 +101,7 @@ namespace AppForUniversity.DatabaseImplement.Storages
         {
             student.Course = model.Course;
             student.FIO = model.FIO;
-            student.Scholarship = model.Scholarship.GetValueOrDefault();
+            student.Scholarship = model.Scholarship;
             student.Сharacteristic = model.Сharacteristic;
             return student;
         }

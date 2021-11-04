@@ -33,6 +33,14 @@ namespace AppForUniversity.Forms
             {
                 List<StudentViewModel> list = studentLogic.Read(null);
 
+                foreach(StudentViewModel student in list)
+                {
+                    if(student.Scholarship == null)
+                    {
+                        student.Scholarship = 0;
+                    }
+                }
+
                 Queue<string> queue = new Queue<string>();
                 queue.Enqueue("Course");
                 queue.Enqueue("Scholarship");
@@ -116,6 +124,7 @@ namespace AppForUniversity.Forms
             {
                 DeleteStudent();
             }
+            //files
             if (e.KeyCode == Keys.S && e.Control)
             {
                 UniversityWordDocument document = new UniversityWordDocument();
@@ -137,6 +146,8 @@ namespace AppForUniversity.Forms
                         document.CreateDoc(dialog.FileName, "Отчет по студентам", strList.ToArray());
                     }
                 }
+                MessageBox.Show("Отчет сформирован успешно", "Сообщение",
+               MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             if (e.KeyCode == Keys.T && e.Control)
             {
@@ -161,6 +172,8 @@ namespace AppForUniversity.Forms
                         table.SaveTable(dialog.FileName, "Отчет по студентам", columnHelpers, rowHelpers, list);
                     }
                 }
+                MessageBox.Show("Отчет сформирован успешно", "Сообщение",
+               MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             if (((Control.ModifierKeys & Keys.Control) == Keys.Control)
         && e.KeyValue == 'C')
@@ -191,6 +204,8 @@ namespace AppForUniversity.Forms
                         gistagram.CreateFile(dialog.FileName, "Отчет по студентам", "Диаграмма по студентам", LegendLocation.Up, dictionary);
                     }
                 }
+                MessageBox.Show("Отчет сформирован успешно", "Сообщение",
+               MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 

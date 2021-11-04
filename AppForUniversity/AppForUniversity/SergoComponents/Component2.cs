@@ -39,13 +39,17 @@ namespace Laboratory1.Components
     */
     public partial class Component2 : UserControl
     {
-        public int? Number { 
-            set {
+        public int? Number
+        {
+            set
+            {
                 checkBox1.Checked = !value.HasValue;
                 textBox1.Text = value.ToString();
             }
-            get {
-                if (checkBox1.Checked) {
+            get
+            {
+                if (checkBox1.Checked)
+                {
                     return null;
                 }
                 else if (string.IsNullOrEmpty(textBox1.Text) && !checkBox1.Checked)
@@ -54,11 +58,15 @@ namespace Laboratory1.Components
                 }
                 else
                 {
-                    int? number=null;
-                    try {
+                    int? number = null;
+                    try
+                    {
                         number = Convert.ToInt32(textBox1.Text);
                     }
-                    catch(Exception ex) { MessageBox.Show(ex.Message); }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show(ex.Message);
+                    }
                     return number;
                 }
             }
@@ -75,7 +83,8 @@ namespace Laboratory1.Components
             {
                 textBox1.Enabled = false;
             }
-            else {
+            else
+            {
                 textBox1.Enabled = true;
             }
         }

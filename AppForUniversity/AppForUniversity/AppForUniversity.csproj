@@ -218,6 +218,7 @@
     <Compile Include="SergoComponents\Component3.Designer.cs">
       <DependentUpon>Component3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Student.cs" />
     <Compile Include="VladisComponents\InputControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -309,6 +310,7 @@
       <Name>NotVisualComponents</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Data.SqlClient.SNI.1.0.19235.1\build\net46\Microsoft.Data.SqlClient.SNI.targets" Condition="Exists('..\packages\Microsoft.Data.SqlClient.SNI.1.0.19235.1\build\net46\Microsoft.Data.SqlClient.SNI.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
